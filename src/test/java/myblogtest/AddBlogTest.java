@@ -14,6 +14,11 @@ import com.mycmad.service.BlogManagementService;
 public class AddBlogTest {
 	
 	@Test
+	public void dummy_test()
+	{
+		
+	}
+	//@Test
 	public void addblog_valid()
 	{
 		BlogManagementService bms =  new BlogManagementService();

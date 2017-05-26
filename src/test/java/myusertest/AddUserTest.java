@@ -15,7 +15,7 @@ public class AddUserTest {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Test
+	//@Test
 	public void testAddUser_validinput()
 	{
 		UserManagementService ums = new UserManagementService();
@@ -44,7 +44,7 @@ public class AddUserTest {
 		
 	}
 	
-	@Test
+	//@Test
 	public void testAddUser_invalidinput()
 	{
 		UserManagementService ums = new UserManagementService();
@@ -63,7 +63,7 @@ public class AddUserTest {
 		
 	}
 	
-	@Test
+	//@Test
 	public void testAddUser_duplicateuser()
 	{
 		UserManagementService ums = new UserManagementService();
@@ -88,7 +88,7 @@ public class AddUserTest {
 		
 	}
 	
-	@Test
+	//@Test
 	public void testFindUser()
 	{
 	   UserManagementService ums = new UserManagementService();
