@@ -8,7 +8,7 @@ import com.mycmad.api.User;
 
 public class LoginUserTest {
 	
-	@Test
+	//@Test
 	public void loginUser_positiveCase()
 	{
 		UserManagementService ums = new UserManagementService();
@@ -25,7 +25,7 @@ public class LoginUserTest {
 		}
 	}
 	
-	@Test
+	//@Test
 	public void loginUser_negativeCase()
 	{
 		UserManagementService ums = new UserManagementService();

@@ -8,7 +8,7 @@ import com.mycmad.api.User;
 import com.mycmad.service.UserManagementService;
 
 public class Logout {
-	@Test
+	//@Test
 	public void loginUser_positiveCase()
 	{
 		UserManagementService ums = new UserManagementService();
