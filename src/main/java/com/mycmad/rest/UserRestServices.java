@@ -25,7 +25,7 @@ public class UserRestServices{
 	@POST
 	@Path("/user")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public  Response addUser(User user)
+	public  Response addUsers(User user)
 	{
 		//Request
 		ums.addUser(user);		
