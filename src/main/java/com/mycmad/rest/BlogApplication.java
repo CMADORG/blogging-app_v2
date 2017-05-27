@@ -4,7 +4,7 @@ import javax.ws.rs.ApplicationPath;
 
 import org.glassfish.jersey.server.ResourceConfig;
 
-@ApplicationPath("rest")
+@ApplicationPath("/")
 public class BlogApplication extends ResourceConfig {
 	public BlogApplication() {
 		packages("com.mycmad.rest");
