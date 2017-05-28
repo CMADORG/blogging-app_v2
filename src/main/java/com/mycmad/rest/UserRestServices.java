@@ -23,9 +23,9 @@ public class UserRestServices{
 	UserManagementService ums = new UserManagementService();
 	
 	@POST
-	@Path("/users")
+	@Path("/user")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public  Response addUsers(User user)
+	public  Response addUser(User user)
 	{
 		//Request
 		ums.addUser(user);		
